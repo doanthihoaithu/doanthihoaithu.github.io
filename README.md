@@ -1,11 +1,11 @@
 Academic Portfolio
 =====================================
 
-You can find the LIVE Website [here](https://nicolasmeseguer.github.io).
+You can find the LIVE Website [here](https://doanthihoaithu.github.io).
 
-This template has been made from scratch taking in consideration some details from Beautiful Jekyll templates.
+This template has been modified from [Nicolás Meseguer](https://github.com/NicolasMeseguer/nicolasmeseguer.github.io.git).
 
-Reach me @ [n.mesegueriborra@um.es](mailto:n.mesegueriborra@um.es).
+Reach me @ [thihoaithu.doan@gssi.it](mailto:thihoaithu.doan@gssi.it).
 
 License
 -------
