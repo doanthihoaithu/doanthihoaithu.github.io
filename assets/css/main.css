@@ -10,6 +10,18 @@
 	text-decoration: underline;
 }
 
+.footer {
+	/*position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: small;
+	font-style: italic;
+	/*background-color: white;*/
+	color: black;
+	text-align: center;
+}
+
 a {
 	text-decoration-thickness: 1px;
 }
