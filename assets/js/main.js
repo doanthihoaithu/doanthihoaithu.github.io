@@ -1,6 +1,7 @@
 // About Me content is the one by default shown
 $('#educationContent').hide();
 $('#publicationsContent').hide();
+$('#blogContent').hide();
 $('#experienceContent').hide();
 $('#conferencesContent').hide();
 $('#projectsContent').hide();
@@ -93,6 +94,23 @@ $(document).ready(function(){
 
 			// Show current content
 			activateDiv('#educationContent');
+		}
+	});
+
+	// Handle 'Blog' content
+	$('#myblog').click(function(e) {
+
+		// If the div has already the class active, no need to reload the divs...
+		if(!$(e.target).hasClass('active')) {
+			// Update navbar
+			clearActiveLinks();
+			activateLink(e);
+
+			// Hide other contents
+			clearActiveDivs();
+
+			// Show current content
+			activateDiv('#blogContent');
 		}
 	});
 
